@@ -1,0 +1,86 @@
+[
+  {
+    "Employee ID": 1001,
+    "EmpFirst Name": "Alice",
+    "EmpLast Name": "Johnson",
+    "EmpPhone Number": "555-123-4567",
+    "EmpStreetName": "123 Main St",
+    "EmpCity": "Anytown",
+    "EmpState": "CA",
+    "EmpZip Code": "90210",
+    "EmpCountry": "USA",
+    "EmpSalary": 75000
+  },
+  {
+    "Employee ID": 1002,
+    "EmpFirst Name": "Bob",
+    "EmpLast Name": "Williams",
+    "EmpPhone Number": "555-789-0123",
+    "EmpStreetName": "456 Elm St",
+    "EmpCity": "Springfield",
+    "EmpState": "IL",
+    "EmpZip Code": "62704",
+    "EmpCountry": "USA",
+    "EmpSalary": 68000
+  },
+  {
+    "Employee ID": 1003,
+    "EmpFirst Name": "Charlie",
+    "EmpLast Name": "Garcia",
+    "EmpPhone Number": "555-456-7890",
+    "EmpStreetName": "789 Sunset Blvd",
+    "EmpCity": "Los Angeles",
+    "EmpState": "CA",
+    "EmpZip Code": "90036",
+    "EmpCountry": "USA",
+    "EmpSalary": 82000
+  },
+  {
+    "Employee ID": 1004,
+    "EmpFirst Name": "Diana",
+    "EmpLast Name": "Moore",
+    "EmpPhone Number": "555-246-8000",
+    "EmpStreetName": "10 Downing St",
+    "EmpCity": "London",
+    "EmpState": "", 
+    "EmpZip Code": "SW1A 1AA",
+    "EmpCountry": "UK",
+    "EmpSalary": 90000
+  },
+  {
+    "Employee ID": 1005,
+    "EmpFirst Name": "Ethan",
+    "EmpLast Name": "Miller",
+    "EmpPhone Number": "555-321-0987",
+    "EmpStreetName": "345 Rue de la Paix",
+    "EmpCity": "Paris",
+    "EmpState": "",
+    "EmpZip Code": "75002",
+    "EmpCountry": "France",
+    "EmpSalary": 52000
+  },
+  {
+    "Employee ID": 1006,
+    "EmpFirst Name": "Fiona",
+    "EmpLast Name": "Brown",
+    "EmpPhone Number": "555-987-6543",
+    "EmpStreetName": "567 Friedrichstraße",
+    "EmpCity": "Berlin",
+    "EmpState": "", 
+    "EmpZip Code": "10117",
+    "EmpCountry": "Germany",
+    "EmpSalary": 65000
+  },
+  {
+    "Employee ID": 1007,
+    "EmpFirst Name": "Gabriel",
+    "EmpLast Name": "Davis",
+    "EmpPhone Number": "555-567-8901",
+    "EmpStreetName": "890 Yonge St",
+    "EmpCity": "Toronto",
+    "EmpState": "ON",
+    "EmpZip Code": "M4W 3E3",
+    "EmpCountry": "Canada",
+    "EmpSalary": 70000
+  }
+]

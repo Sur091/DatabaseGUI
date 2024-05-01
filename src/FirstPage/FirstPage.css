@@ -1,0 +1,138 @@
+.FirstPage {
+    display: grid;
+    grid-template-rows: 15vh 20vh 35vh 25vh;
+    /* gap: 10px; */
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    overflow: hidden;
+}
+
+.Toolbar {
+    /* grid-column: 1 / span 3; */
+    background:linear-gradient(to bottom, transparent 0%, rgba(190,190,192,0.2) 100%) ;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+.Logo {
+    /* background-color: aqua; */
+    padding-top: 3vh;
+    font-size: 25px;
+}
+
+.Search {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Search-Box {
+    display: flex;
+    align-items: center;
+    /* background-color: #f2f2f2; */
+    background-color: transparent;
+    overflow: hidden; /* Prevent input overflow */
+    position: absolute;
+    top: 3vh;
+    height: 7vh;
+    border-radius: 3.5vh;
+    border: 1px solid #ddd;
+    width: max-content;
+  }
+  
+.search-input {
+  font-size: 18px;
+  color: whitesmoke;
+  background-color: transparent; /* Inherit background color */
+  border: none;
+
+}
+
+.search-input:focus {
+  outline: none; /* Remove default focus outline */
+}
+  
+  .search-button {
+    border: none;
+    padding-left:10px; /* Adjust padding if needed */
+    background-color: transparent;
+    cursor: pointer; /* Indicate clickable behavior */
+  }
+  
+  .fas.fa-search {
+    font-size: 25px;
+    color: lightblue; /* Adjust icon color */
+  }
+  
+  
+.Log-In {
+    /* background-color: chartreuse; */
+    padding-top: 3vh;
+    font-size: 25px;
+}
+
+.Content {
+  background:linear-gradient(to top, transparent 0%, rgba(190,190,192,0.3) 100%);
+    font-family: 'Roboto'; /* Name of the font family */
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+    padding-top: 10px;
+}
+
+.Buttons {
+  display: flex; /* Arrange buttons horizontally */
+  justify-content: center; /* Center buttons in container */
+  align-items: center;
+  /* margin: 50px auto; Add some margin for spacing */
+  text-decoration: none;
+}
+
+.game-button,
+.database-button {
+  background-color: #fff; /* White background */
+  color: #000; /* Black text */
+  border: none; /* Remove default border */
+  padding: 20px 40px; /* Add some padding for text */
+  font-size: 18px; /* Adjust font size as needed */
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 30px; /* Add rounded corners */
+  cursor: pointer; /* Indicate clickable behavior */
+  box-shadow: 0 2px 5px rgba(192,192,192, 0.2); /* Default shadow */
+  transition: box-shadow 0.2s ease-in-out; /* Smooth transition */
+
+}
+
+.game-button {
+  position: absolute;
+  left: 25%;
+}
+.database-button {
+  position: absolute;
+  right: 25%;
+}
+.game-button:hover,
+.database-button:hover {
+  box-shadow: 0 5px 10px rgba(192, 192, 192, 0.5); /* Shadow on hover */
+}
+
+/* .link {
+  position: absolute;
+  right: 75%;
+} */
+.About-Us {
+  background-color: #282c34;
+  font-family: 'Roboto'; /* Name of the font family */
+  src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+  display: grid;
+  grid-template-rows: 40% auto;
+  justify-items: center;
+  align-items: center;
+  
+}
+.content-About-Us {
+
+  width: 70%;
+  font-size: 18px;
+}
+

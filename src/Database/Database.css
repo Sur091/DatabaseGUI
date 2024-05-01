@@ -1,0 +1,64 @@
+table {
+    background-color: #282c34;
+    border-radius: 10px; /* Rounded corners for the table */
+    width: 90%; /* Adjust width as needed */
+    margin: 0 auto; /* Center the table horizontally */
+    font-family: Arial, sans-serif; /* Set font family */
+    /* gap: 0; */
+  }
+  
+  th,
+  td {
+    border: none solid none none; /* Cell borders */
+    padding: 10px; /* Padding for cells */
+    text-align: center; /* Center content within cells */
+    /* border-radius: 20%; */
+    color: rgb(210, 210, 210);
+  }
+  
+  th {
+    background-color: #333; /* Header background color */
+    color: #fff; /* Header text color */
+  }
+  table tr:nth-child(even) {
+    background-color: #333; /* Light gray for even rows */
+  }
+  
+  table tr:nth-child(odd) {
+    background-color: #222; /* White for odd rows */
+  }
+
+.database {
+    display: grid;
+    grid-template-rows: 80vh 80vh;
+    background-color: #282c34;
+}
+
+.employees {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: aliceblue;
+    padding-bottom: 12px;
+}
+
+input {
+    border: none; /* Cell borders */
+    /* border-radius: 20%; */
+    text-align: center;
+    color: rgb(210, 210, 210);
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+}
+
+span {
+    font-size: 14px;
+}
